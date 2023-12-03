@@ -1,0 +1,13 @@
+filename = 'servertick-mc1.20-1.8.jar'
+name = 'Server Tick'
+side = 'both'
+
+[download]
+hash = '17de83df6d2382097309a6a60e5ab31338eb8668912c5677f2d3b09b56b469cf7599e023a97eb24a546e48769c5997f844c59c48d0ec69c895e9ee697d699f01'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nEKRNLz9/versions/IOYJbkmQ/servertick-mc1.20-1.8.jar'
+
+[update.modrinth]
+mod-id = 'nEKRNLz9'
+version = 'IOYJbkmQ'

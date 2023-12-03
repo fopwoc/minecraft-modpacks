@@ -1,0 +1,13 @@
+filename = 'durabilityviewer-1.20-fabric0.83.0-1.10.5.jar'
+name = 'Durability Viewer'
+side = 'both'
+
+[download]
+hash = '694172e8bf7c522c57c46be8b7abcc9530afc37ca6a9cdf2ea91c311241bc9ef5c037c93fdbdf8aa48db25aeb3f5c68706cd8f329d4a447b015d627c86629575'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LTM1f0yY/versions/iVlTsxR7/durabilityviewer-1.20-fabric0.83.0-1.10.5.jar'
+
+[update.modrinth]
+mod-id = 'LTM1f0yY'
+version = 'iVlTsxR7'

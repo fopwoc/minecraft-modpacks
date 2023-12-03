@@ -1,0 +1,13 @@
+filename = 'fastrandom-1.4.2.jar'
+name = 'Faster Random'
+side = 'both'
+
+[download]
+hash = '2c5384a4a310884e4baf48bba31e69db984b5c53b77f037285766a911a5f0b04ee842a9fec37e3a425ba9b1689703aaa1c64dd697173ba7b3fde0289186bf41c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RfFxanNh/versions/rNgmMAGr/fastrandom-1.4.2.jar'
+
+[update.modrinth]
+mod-id = 'RfFxanNh'
+version = 'rNgmMAGr'

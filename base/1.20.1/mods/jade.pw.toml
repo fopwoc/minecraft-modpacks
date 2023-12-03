@@ -1,0 +1,13 @@
+filename = 'Jade-1.20-fabric-11.6.2.jar'
+name = 'Jade 🔍'
+side = 'both'
+
+[download]
+hash = 'b3a6e0d533afc5186d144b6abb54249d609731872961e41844f25a887776d7ad29939dcf1fdf87e0ee6082bae38459cff25731d513b7941615596c260c64e883'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nvQzSEkH/versions/ckXpheui/Jade-1.20-fabric-11.6.2.jar'
+
+[update.modrinth]
+mod-id = 'nvQzSEkH'
+version = 'ckXpheui'

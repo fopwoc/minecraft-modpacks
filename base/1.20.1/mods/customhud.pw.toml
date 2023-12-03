@@ -1,0 +1,13 @@
+filename = 'custom_hud-3.1.2+1.20.1.jar'
+name = 'CustomHud'
+side = 'client'
+
+[download]
+hash = '7f67daeedb007b0370275bad8d5814c1b21f3497423660f9b1f916617d9df6118c888a9d5bd64f0e3cfaefef22454c20164664aa5c0fc34813330f7070f33ab1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6jis0UTI/versions/UKBaGxvE/custom_hud-3.1.2%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = '6jis0UTI'
+version = 'UKBaGxvE'

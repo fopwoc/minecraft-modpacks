@@ -1,0 +1,13 @@
+filename = 'libIPN-fabric-1.20-4.0.1.jar'
+name = 'libIPN'
+side = 'client'
+
+[download]
+hash = '75449b13a9a9c30f0bf65abc39c347f7c1ffd1b7eb4fb40c5bebece0c7ea4990fb508fc9c0880dd8ccfab11f0b896a50c70ff6ea640cb7c45d0c74a45886dbb8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/onSQdWhM/versions/n7RHn1mT/libIPN-fabric-1.20-4.0.1.jar'
+
+[update.modrinth]
+mod-id = 'onSQdWhM'
+version = 'n7RHn1mT'

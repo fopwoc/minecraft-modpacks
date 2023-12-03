@@ -1,0 +1,13 @@
+filename = 'dashloader-5.0.0-beta.2+1.20.0.jar'
+name = 'DashLoader'
+side = 'client'
+
+[download]
+hash = '103ecdb691e12cce0e59c823fbe2961cb5658f3db844b32ee4295073ee1441ca428fa795785360546d9f4ddd320e3a87ab1abf04d2a549e935b018c4e1f2eb35'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZfQ3kTvR/versions/wgtrj8HS/dashloader-5.0.0-beta.2%2B1.20.0.jar'
+
+[update.modrinth]
+mod-id = 'ZfQ3kTvR'
+version = 'wgtrj8HS'

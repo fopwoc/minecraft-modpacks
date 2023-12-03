@@ -1,0 +1,16 @@
+fullscreen:true
+renderDistance:10
+simulationDistance:6
+enableVsync:true
+guiScale:3
+maxFps:90
+tutorialStep:none
+skipMultiplayerWarning:true
+joinedFirstServer:true
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_key.gamma_utils.increase_gamma:key.keyboard.unknown
+key_key.gamma_utils.decrease_gamma:key.keyboard.unknown
+key_key.gamma_utils.max_gamma:key.keyboard.unknown
+key_key.gamma_utils.min_gamma:key.keyboard.unknown
+key_key.gamma_utils.night_vision_toggle:key.keyboard.unknown

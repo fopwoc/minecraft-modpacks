@@ -1,0 +1,13 @@
+filename = 'norecipebook-2.4+1.20.1.jar'
+name = 'NoRecipeBook'
+side = 'client'
+
+[download]
+hash = '2f8b7b9a1322f756f4a9de0fc3b6e848c8c1bc7ae08219e118a2d32d466c8caa884c84a3d5090c178129669cc8071158ce45437e224a65df71bb00d7f97be51c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TvL1V8O5/versions/zsATCGJk/norecipebook-2.4%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'TvL1V8O5'
+version = 'zsATCGJk'
