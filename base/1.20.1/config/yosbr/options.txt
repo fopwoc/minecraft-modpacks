@@ -2,7 +2,7 @@ fullscreen:true
 renderDistance:10
 simulationDistance:6
 enableVsync:true
-guiScale:3
+guiScale:2
 maxFps:90
 tutorialStep:none
 skipMultiplayerWarning:true
