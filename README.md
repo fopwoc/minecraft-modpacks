@@ -4,4 +4,4 @@
 
 Steam Deck ready vanilla qol + optimizations modpack that can be built with global mods on top of it.
 
-Instead and partially based on [Deckium](https://github.com/skywardmc/deckcraft) and [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized/)
+Inspired and partially based on [Deckium](https://github.com/skywardmc/deckcraft) and [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized/)
