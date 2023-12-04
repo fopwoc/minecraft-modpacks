@@ -1,0 +1,13 @@
+{
+  "main_menu":{
+    "bottom_left":[
+      {
+        "text":"MODPACK_NAME",
+        "clickEvent":{
+          "action":"open_url",
+          "value":"https://github.com/fopwoc/minecraft-modpacks"
+        }
+      }
+    ]
+  }
+}

@@ -1,6 +1,2 @@
 1.20.1:
-	@mkdir
-
-
-base:
-	@mkdir
+	@./create_base.sh 1.20.1 0.22.0 Draft 0.0.1

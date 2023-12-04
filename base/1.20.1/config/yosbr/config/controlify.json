@@ -30,7 +30,7 @@
         "show_ingame_guide": false,
         "ingame_guide_bottom": true,
         "show_screen_guide": true,
-        "chat_keyboard_height": 0.5,
+        "chat_keyboard_height": 0.45,
         "reduce_aiming_sensitivity": true,
         "allow_vibrations": true,
         "vibration_strengths": {

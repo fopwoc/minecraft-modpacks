@@ -1,0 +1,13 @@
+filename = 'RoughlyEnoughItems-12.0.674.jar'
+name = 'Roughly Enough Items (REI)'
+side = 'both'
+
+[download]
+hash = '347efb5ed978eedf76a37308c7f2759252c47dcb2e1445c5cd7218ccfb23b76acfa342512eb184751cb505b64e032d2f53d7a89225621edcf7b0f7a370d2416f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nfn13YXA/versions/2nschZDR/RoughlyEnoughItems-12.0.674.jar'
+
+[update.modrinth]
+mod-id = 'nfn13YXA'
+version = '2nschZDR'
