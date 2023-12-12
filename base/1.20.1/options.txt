@@ -1,5 +1,5 @@
 version:3465
-fullscreen:true
+fullscreen:false
 renderDistance:12
 simulationDistance:8
 enableVsync:true
