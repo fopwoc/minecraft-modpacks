@@ -1,0 +1,13 @@
+filename = 'AutoElytra-2.1.0-1.20.1.jar'
+name = 'Auto Elytra'
+side = 'client'
+
+[download]
+hash = 'c11435e6ba46f805e925ef3b8be39ac8f81dc6fda8a6b7d3a9dc6e995c80995ba693bf53bea793da4c5ecdaa2691b08a01f1bc1f4cb1f8b6ef4e0a530dd2b598'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3Azf2GPw/versions/cguVfXNH/AutoElytra-2.1.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '3Azf2GPw'
+version = 'cguVfXNH'

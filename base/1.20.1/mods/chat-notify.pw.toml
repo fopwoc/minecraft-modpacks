@@ -1,0 +1,13 @@
+filename = 'ChatNotify-Fabric-1.20.1-1.1.0.jar'
+name = 'Chat Notify'
+side = 'client'
+
+[download]
+hash = '3ecd68c85cbd4a0669cb98bd775047c13a3b2aad03f1bee9b868b5e8365970f418302789db58064a1b333c807cc31f72d5c45a9977aef0d5e870487f5c032d7c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Iudurxl8/versions/mi6UobsU/ChatNotify-Fabric-1.20.1-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'Iudurxl8'
+version = 'mi6UobsU'
