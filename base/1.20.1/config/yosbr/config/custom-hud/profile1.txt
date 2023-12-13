@@ -1,4 +1,3 @@
 ==Section:TopLeft==
 &6IRL: &e{real_time:HH:mm} {real_time:d.M.yyyy}
 &6Time: &e{hour24}:{minute}&6, Day: &e{day}
-&6TPS: {{tps >= 18, "&a", tps < 15, "&c", "&e"}}{tps}&f
