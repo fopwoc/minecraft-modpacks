@@ -16,7 +16,7 @@ jobs:
       - name: "Install packwiz"
         run: 'go install github.com/packwiz/packwiz@latest'
       - name: "Build modpacks"
-        run: "./create_batch.sh"
+        run: "make"
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
