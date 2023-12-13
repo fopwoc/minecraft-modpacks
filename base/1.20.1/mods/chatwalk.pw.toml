@@ -1,0 +1,13 @@
+filename = 'chatwalk-1.0.2.jar'
+name = 'ChatWalk'
+side = 'client'
+
+[download]
+hash = 'c3f99a1c517102e879d36247a83a4f0e92602508733189d2e9efa0fc0cccd74211238ee0a7ee5541a8a699a63c04b16f1baac4e3e2b46bad8785d7cdbb226d4f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t5nvgP7I/versions/A9jUptwZ/chatwalk-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 't5nvgP7I'
+version = 'A9jUptwZ'
