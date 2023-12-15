@@ -57,4 +57,6 @@ Sure, everyone likes to feel comfort, right? This modpack has so many useful mod
 
 Absolutely! There short gameplay on my deck:
 
-![](https://raw.githubusercontent.com/fopwoc/minecraft-modpacks/master/.github/assets/preview.mp4)
+<video controls="" width="800" height="500" muted="" loop="" autoplay="">
+<source src="https://raw.githubusercontent.com/fopwoc/minecraft-modpacks/master/.github/assets/preview.mp4" type="video/mp4">
+</video>
