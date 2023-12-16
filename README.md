@@ -1,6 +1,6 @@
 # fopwoc's Minecraft modpacks
 
-***The "Gentoo" way to play minecraft*** – Why just share zip with your friends when you can write a CI for your modpack?
+***"Gentoo" way to play minecraft*** – Why just share zip with your friends when you can write a CI for your modpack?
 
 Inspired and partially based on [Deckium](https://github.com/skywardmc/deckcraft) and [Fabulously Optimized](https://github.com/Fabulously-Optimized/fabulously-optimized/) modpacks.
 
@@ -46,16 +46,16 @@ Absolutely! Everyone appreciates comfort, right? This modpack includes numerous 
 - [Controlify](https://modrinth.com/mod/controlify) – Controller support with many great features.
 - [Chat Patches](https://modrinth.com/mod/chatpatches) – This mod makes chat great again.
 - [Durability Viewer](https://modrinth.com/mod/durabilityviewer) – Useful for seeing the exact durability left with your items.
-- [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) – ADHD inventory sorting. But also has a lot of awesome invetory managment features.
+- [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) – ADHD inventory sorting. But also has many awesome inventory management features.
 - [Chest Tracker](https://modrinth.com/mod/chest-tracker) – Helps you find in which chest your certain items are located.
 - [ChatWalk](https://modrinth.com/mod/chatwalk) – Useful when you need to travel straight for a long distance but are too lazy to press the W button all the time (though not the main purpose of this mod).
 - [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map) – The best world map and waypoints mod ever existed.
-- [Ok Zoomer](https://modrinth.com/mod/ok-zoomer) – My personal favorite zooming mod. This mod is literally only one reason why I use Quilt over Fabric :)
+- [Ok Zoomer](https://modrinth.com/mod/ok-zoomer) – My personal favorite zooming mod. This mod is literally the only reason why I use Quilt over Fabric :)
 - And so much more…
 
 ### You mentioned it works well on the Steam Deck?
 
-Absolutely! Here's a short gameplay video on my deck:
+Sure thing! Here's a short gameplay video on my deck:
 
 https://github.com/fopwoc/minecraft-modpacks/assets/21304354/8e327b8c-762a-4343-b4f6-ae9a0ccd2e5d
 
