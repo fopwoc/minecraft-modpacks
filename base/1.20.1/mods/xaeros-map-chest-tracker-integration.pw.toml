@@ -1,0 +1,13 @@
+filename = 'xaeros-map-chest-tracker-integration-mc1.20.1-v1.0.2.jar'
+name = "Xaero's Map Chest Tracker Integration"
+side = 'client'
+
+[download]
+hash = '4607bdfb246354c58fdaff8e7f204164aa5f263b27aa7cf392749f5d430a0dd3378469549106bb7c3d6e18fc326ca272708ab1ca32eb5ce4455b5f09750de4f4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XhOTBzVR/versions/KCpLdByr/xaeros-map-chest-tracker-integration-mc1.20.1-v1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'XhOTBzVR'
+version = 'KCpLdByr'
