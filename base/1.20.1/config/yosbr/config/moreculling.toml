@@ -13,7 +13,7 @@ leavesCullingMode = "FAST"
 leavesCullingAmount = 2
 includeMangroveRoots = true
 powderSnowCulling = true
-entityModelCulling = false
+entityModelCulling = true
 useOnModdedBlocksByDefault = true
 
 [modCompatibility]
