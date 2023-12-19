@@ -51,6 +51,7 @@ Absolutely! Everyone appreciates comfort, right? This modpack includes numerous 
 - [ChatWalk](https://modrinth.com/mod/chatwalk) – Useful when you need to travel straight for a long distance but are too lazy to press the W button all the time (though not the main purpose of this mod).
 - [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map) – The best world map and waypoints mod ever existed.
 - [Ok Zoomer](https://modrinth.com/mod/ok-zoomer) – My personal favorite zooming mod. This mod is literally the only reason why I use Quilt over Fabric :)
+- [Screenshot Viewer](https://modrinth.com/mod/screenshot-viewer) – Great way to preview screenshots right in-game. Handy on Steam Deck where I can't open filesystem.
 - And so much more…
 
 ### You mentioned it works well on the Steam Deck?
