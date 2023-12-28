@@ -9,13 +9,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Extract version from package.json
-        uses: sergeysova/jq-action@v2
-        id: versions
+      - uses: actions/setup-go@v4
         with:
-          cmd: 'seq $(./count_versions.sh) | jq -R | jq -s -c'
+          go-version: '1.21'
+      - name: "Install packwiz"
+        run: 'github.com/itchyny/gojq/cmd/gojq@latest'
       - id: set-matrix
-        run: echo "::set-output name=matrix::${{ steps.versions.outputs.matrix }}"
+        run: echo "::set-output name=matrix::$(seq $(./count_versions.sh) | gojq -R | gojq -s -c)"
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
   build_artifacts:
