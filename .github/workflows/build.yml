@@ -12,8 +12,8 @@ jobs:
       - uses: actions/setup-go@v4
         with:
           go-version: '1.21'
-      - name: "Install packwiz"
-        run: 'github.com/itchyny/gojq/cmd/gojq@latest'
+      - name: "Install gojq"
+        run: 'go install github.com/itchyny/gojq/cmd/gojq@latest'
       - id: set-matrix
         run: echo "::set-output name=matrix::$(seq $(./count_versions.sh) | gojq -R | gojq -s -c)"
     outputs:
