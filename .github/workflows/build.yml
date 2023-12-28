@@ -13,7 +13,7 @@ jobs:
         uses: sergeysova/jq-action@v2
         id: versions
         with:
-          cmd: 'seq $(./count_versions.sh) | jq -R | jq -s'
+          cmd: 'seq $(./count_versions.sh) | jq -R | jq -s -c'
       - id: set-matrix
         run: echo "::set-output name=matrix::${{ steps.versions.outputs.matrix }}"
     outputs:
