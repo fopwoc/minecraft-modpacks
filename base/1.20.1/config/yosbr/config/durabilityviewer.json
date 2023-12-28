@@ -72,7 +72,7 @@
     ],
     "key": "Warning mode",
     "toolTip": "durabilityviewer.config.tt.warnmode",
-    "value": 2,
+    "value": 0,
     "defaultValue": 1,
     "minValue": 0,
     "maxValue": 3

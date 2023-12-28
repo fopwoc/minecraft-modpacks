@@ -13,12 +13,17 @@
         "continuous_crafting_saved_value": false
     },
     "AutoRefillSettings": {
+        "auto_refill_temp_disable_refill_for_tools": {
+            "main": {
+                "keys": "LEFT_SHIFT"
+            }
+        },
+        "auto_refill_match_any_food": true,
         "allow_break_for_non_enchanted": {
             "value": true
         },
-        "audio_replace_failed_notification": {
-            "value": false
-        },
+        "number_of_notifications": 5,
+        "notification_step": 2,
         "type_visual_replace_failed_notification": "HOTBAR"
     }
 }

@@ -1,6 +1,6 @@
 filename = 'dynamic-fps-3.3.1+minecraft-1.20.0.jar'
 name = 'Dynamic FPS'
-side = 'both'
+side = 'client'
 
 [download]
 hash = 'e59e708d7b09726fbb1bdb053574da291126bdc0b15b83c18cda8c26cb12072be09798651b3dff7d2253cbeff4739598a505efe4ade3dc83d7ef8cfd861dab1c'
