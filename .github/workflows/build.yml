@@ -15,7 +15,7 @@ jobs:
       - name: "Install gojq"
         run: 'go install github.com/itchyny/gojq/cmd/gojq@latest'
       - id: set-matrix
-        run: echo "::set-output name=matrix::$(seq $(./count_versions.sh) | gojq -R | gojq -s -c)"
+        run: echo "matrix=$(seq $(./count_versions.sh) | gojq -R | gojq -s -c)" >> $GITHUB_OUTPUT
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
   build_artifacts:
@@ -39,24 +39,24 @@ jobs:
         id: set_vars
         run: |
           line=$(./get_version_by_index.sh ${{ matrix.index }})
-          echo "::set-output minecraftVersion=::$(./get_var_by_index.sh $line 1)"
-          echo "::set-output modpackName=::$(./get_var_by_index.sh $line 3)"
-          echo "::set-output modpackVersion=::$(./get_var_by_index.sh $line 4)"
+          echo "minecraftVersion=$(./get_var_by_index.sh $line 1)" >> $GITHUB_OUTPUT
+          echo "modpackName=$(./get_var_by_index.sh $line 3)" >> $GITHUB_OUTPUT
+          echo "modpackVersion=$(./get_var_by_index.sh $line 4)" >> $GITHUB_OUTPUT
       - name: "Upload artifacts"
         uses: actions/upload-artifact@v3
         with:
-          name: "artifact-${{ steps.set_vars.outputs.modpackName }}_${{ steps.set_vars.outputs.modpackVersion }}-${{ vars.minecraftVersion }}"
+          name: "artifact-${{ steps.set_vars.outputs.modpackName }}_${{ steps.set_vars.outputs.modpackVersion }}-${{ steps.set_vars.outputs.minecraftVersion }}"
           path: "${{ github.workspace }}/artifacts/"
           if-no-files-found: error
-      - name: "Publish ${{ steps.set_vars.outputs.modpackName }} ${{ steps.set_vars.outputs.modpackVersion }}-${{ vars.minecraftVersion }}"
+      - name: "Publish modpack"
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-          name: ${{ steps.set_vars.outputs.modpackName }} ${{ steps.set_vars.outputs.modpackVersion }}-${{ vars.minecraftVersion }}
+          name: ${{ steps.set_vars.outputs.modpackName }} ${{ steps.set_vars.outputs.modpackVersion }}-${{ steps.set_vars.outputs.minecraftVersion }}
 #          modrinth-id: RhyIK0tf
 #          modrinth-featured: true
 #          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           files: '${{ github.workspace }}/artifacts/*.mrpack'
           loaders: quilt
-          game-versions: ${{ vars.MC_VERSION }}
+          game-versions: ${{ steps.set_vars.outputs.minecraftVersion }}
 
