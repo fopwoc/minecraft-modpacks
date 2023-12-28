@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - uses: actions/setup-go@v4
+      - uses: actions/setup-go@v5
         with:
           go-version: '1.21'
       - name: "Install gojq"
@@ -28,7 +28,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - uses: actions/setup-go@v4
+      - uses: actions/setup-go@v5
         with:
           go-version: '1.21'
       - name: "Install packwiz"
@@ -45,18 +45,19 @@ jobs:
       - name: "Upload artifacts"
         uses: actions/upload-artifact@v3
         with:
-          name: "artifact-${{ steps.set_vars.outputs.modpackName }}_${{ steps.set_vars.outputs.modpackVersion }}-${{ steps.set_vars.outputs.minecraftVersion }}"
+          name: "artifact_${{ steps.set_vars.outputs.modpackName }}_${{ steps.set_vars.outputs.modpackVersion }}-${{ steps.set_vars.outputs.minecraftVersion }}"
           path: "${{ github.workspace }}/artifacts/"
           if-no-files-found: error
       - name: "Publish modpack"
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-          name: ${{ steps.set_vars.outputs.modpackName }} ${{ steps.set_vars.outputs.modpackVersion }}-${{ steps.set_vars.outputs.minecraftVersion }}
-#          modrinth-id: RhyIK0tf
-#          modrinth-featured: true
-#          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          files: '${{ github.workspace }}/artifacts/*.mrpack'
-          loaders: quilt
+          name: ${{ steps.set_vars.outputs.modpackName }}
+          version: ${{ steps.set_vars.outputs.modpackVersion }}-${{ steps.set_vars.outputs.minecraftVersion }}
           game-versions: ${{ steps.set_vars.outputs.minecraftVersion }}
-
+          version-type: release
+          loaders: quilt
+          modrinth-id: RhyIK0tf
+          modrinth-featured: true
+          modrinth-unfeature-mode: subset
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          files: '${{ github.workspace }}/artifacts/*.mrpack'
