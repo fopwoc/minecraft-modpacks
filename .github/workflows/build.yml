@@ -61,3 +61,4 @@ jobs:
           modrinth-unfeature-mode: subset
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           files: '${{ github.workspace }}/artifacts/*.mrpack'
+          changelog: ${{ github.event.head_commit.message }}
