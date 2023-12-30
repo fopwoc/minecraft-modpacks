@@ -3,13 +3,15 @@ fullscreen:false
 renderDistance:12
 simulationDistance:8
 enableVsync:true
-fov:0.5
+fov:0.75
 guiScale:3
 maxFps:90
 tutorialStep:none
 skipMultiplayerWarning:true
 joinedFirstServer:true
 snooperEnabled:false
+quilt_available_resource_packs:["continuity/default","continuity/glass_pane_culling_fix","high_contrast","minecraft/highlight_extended","programmer_art","vanilla"]
+resourcePacks:["vanilla","continuity/default","minecraft/highlight_extended"]
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.gamma_utils.increase_gamma:key.keyboard.unknown

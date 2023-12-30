@@ -1,13 +1,13 @@
-filename = 'fastrandom-1.4.2.jar'
+filename = 'fastrandom-1.6.0.jar'
 name = 'Faster Random'
 side = 'both'
 
 [download]
-hash = '2c5384a4a310884e4baf48bba31e69db984b5c53b77f037285766a911a5f0b04ee842a9fec37e3a425ba9b1689703aaa1c64dd697173ba7b3fde0289186bf41c'
+hash = '16b0aa2b12cac8ed56444a4dc69a90822f6b29bd8f8566b47f70d91206a690089206b0313c4a0f72d86740e8da1169569b4e135fd559fdb785eb020d25a93977'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/RfFxanNh/versions/rNgmMAGr/fastrandom-1.4.2.jar'
+url = 'https://cdn.modrinth.com/data/RfFxanNh/versions/YApDckfW/fastrandom-1.6.0.jar'
 
 [update.modrinth]
 mod-id = 'RfFxanNh'
-version = 'rNgmMAGr'
+version = 'YApDckfW'
