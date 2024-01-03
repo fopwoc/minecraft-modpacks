@@ -1,0 +1,13 @@
+filename = 'dynamic-fullbright-1.2.0.jar'
+name = 'Dynamic Fullbright'
+side = 'client'
+
+[download]
+hash = 'a1f9b02fe07da7f2770f98b11e5276e64118e96daf02722b61e352a4d1e1a7d69f0e2fd81510afd3c10b7ab2315ad5187a5cc43bec457950e12378321f23d082'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tF7P4IlX/versions/3hXTRRuz/dynamic-fullbright-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'tF7P4IlX'
+version = '3hXTRRuz'

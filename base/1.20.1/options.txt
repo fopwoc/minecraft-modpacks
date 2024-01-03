@@ -3,7 +3,8 @@ fullscreen:false
 renderDistance:12
 simulationDistance:8
 enableVsync:true
-fov:0.75
+fov:0.5
+gamma:1.0
 guiScale:3
 maxFps:90
 tutorialStep:none
